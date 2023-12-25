@@ -15,7 +15,7 @@ public class BinarySearch {
 		return -1;
 	}
 	public static void main(String[] args) {
-		int[] ara = {54,57,67,89,99,123,128,135,159,244,586};
+		int[] ara = {53,57,67,89,99,123,128,135,159,244,586};
 		System.out.println(binarySearch(ara, 0, ara.length-1, 586));
 	}
 
