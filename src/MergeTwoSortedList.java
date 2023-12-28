@@ -29,6 +29,7 @@ public class MergeTwoSortedList {
 		l2.next.next.next.next = new ListNode(15,null);
 		
 		ListNode mergedList = mergeTwoSortedList(l1, l2);
+		
 		ListNode.printListNode(mergedList);
 	}
 
